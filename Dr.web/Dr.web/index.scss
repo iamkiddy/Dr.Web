@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css?family=Kurale|Montserrat|Raleway|Roboto&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  line-height: 1.4em;
+}
+body {
+  background: white;
+  color: #333;
+  font-family: "Roboto", sans-serif;
+  height: 100vh;
+  width: 100vw;
+}
+.main-header {
+  font-family: "Montserrat", sans-serif;
+  box-shadow: 0 0 5px 5px;
+  display: grid;
+  height: 15vh;
+  font-size: 20px;
+  grid-template-columns: 1fr 1fr;
+  position: relative;
+  z-index: 1;
+}
+.main-header .logo {
+  margin: 40px 10px;
+  color: rgb(87, 0, 128);
+}
+.navbar ul {
+  display: inline-flex;
+  position: absolute;
+  color: blue;
+
+  li {
+    list-style: none;
+    margin: 40px 10px;
+    text-decoration: none;
+    color: blue;
+    font-family: "Montserrat", sans-serif;
+  }
+}
+a {
+  list-style: none;
+  text-decoration: none;
+  color: blue;
+  a:active {
+    color: blue;
+  }
+}
+.header-2 {
+  position: relative;
+  height: 85vh;
+  background-image: url("./images/second-hearder-image.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: black;
+  font-family: "Raleway", sans-serif;
+  align-content: center;
+  align-items: center;
+  h1 {
+    font-size: 42px;
+  }
+}
+.btn {
+  margin-top: 50px;
+  border-radius: 20px;
+  border: 1px solid blue;
+  background: blue;
+  color: #fff;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 12px 45px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transition: transform 80ms ease-in;
+  cursor: pointer;
+  .btn:hover {
+    cursor: pointer;
+  }
+}
